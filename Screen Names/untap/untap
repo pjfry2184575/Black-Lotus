@@ -1,0 +1,42 @@
+$onlyForServers[891592037403623424;]
+
+
+$if[$getUserVar[DCI#]==0000-000-000]
+$title[Oops,]
+$description[You need to create an account with us first before you can set your screen names.]
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$getServerVar[thumbnail]]
+$addTimestamp
+
+$else
+
+$nomention
+$replyIn[1s]
+$if[$getUserVar[SNuntap]==$message[1]]
+$title[$nickname[$mentioned[1;yes]]]
+$description[Your Untap.in screen name has already been set to, 
+> • __**$message**__]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/535420fb1d8cec3c29ec91e1f196aae4.jpeg]
+
+$addTimestamp
+
+$else
+
+$if[$getUserVar[DCI#]!=0000-000-000]
+$title[$nickname[$findUser[$message[2];yes]]]
+$description[Thank you for setting your Screen Name.
+
+You have set your Untap.in Screen Name as, 
+> • __**$message**__]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/535420fb1d8cec3c29ec91e1f196aae4.jpeg]
+
+$addTimestamp
+
+$endif
+$endif
+$endif
+$endif
+$deletecommand

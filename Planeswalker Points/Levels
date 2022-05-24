@@ -1,0 +1,31 @@
+$removeComponent[Backlvls]
+
+$nomention
+$title[Planeswalker Levels & Points system]
+$description[
+As of today, we'll be using a new system called Planeswalker Points. But it's not just a new rating system. Planeswalker Points is designed to let all players, from casual to competitive to pro, track and show off how much they play—and win!—in ⱮͲƓ ᴴᵘᵇ.
+
+
+__**How Planeswalker Points Works**__
+Your Planeswalker Points are tracked in several different ways. Your **Lifetime total** records all the points you've ever earned, and is used to calculate your Planeswalker Points level. Your **Competitive total** counts points from competitive events in the current competitive season. Your **Friday Night Magic Total** counts points from Friday Night Magic Events. Lastly, your **Professional total** adds together the points you've earned at major events. These totals will be used to award invitations and byes to different kinds of events.
+
+> • 3 points for each win, 1 for each draw, and zero for each loss
+]
+
+
+
+$addButton[no;Prodigy;Prodigy;secondary;no;]
+$addButton[no;Apprentice;Apprentice;secondary;no;]
+$addButton[no;TaskMage;Task Mage;secondary;no;]
+$addButton[yes;Adept;Adept;secondary;no;]
+$addButton[no;Spellshaper;Spellshaper;secondary;no;]
+$addButton[no;Guildmage;Guildmage;secondary;no;]
+$addButton[yes;Invoker;Invoker;secondary;no;]
+$addButton[no;Sorcerer;Sorcerer;secondary;no;]
+$addButton[no;Battlemage;Battlemage;secondary;no;]
+$addButton[yes;Archmage;Archmage;secondary;no;]
+
+
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$getServerVar[thumbnail]]

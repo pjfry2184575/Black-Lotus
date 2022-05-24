@@ -1,0 +1,23 @@
+$onlyForServers[891592037403623424;]
+
+$if[$getUserVar[SNarena]==]
+$title[uh oh,]
+$description[$nickname[$mentioned[1;yes]] has not set their Arena screen name yet.
+]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/808fb0c8f9df2d60b599c062019c550a.jpeg]
+
+$else
+
+$nomention
+$title[Arena Screen Name for $nickname[$findUser[$mentioned[2]]]]
+$description[
+> $getUserVar[SNarena;$mentioned[1]]]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/808fb0c8f9df2d60b599c062019c550a.jpeg]
+
+
+$deletecommand
+$deleteIn[29m]
+
+$endif

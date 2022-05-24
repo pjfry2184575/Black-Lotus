@@ -52,6 +52,7 @@ Black Lotus</br>Discord Bot for ⱮͲƓ ᴴᵘᵇ,</br>using BDFD</br>
   <summary>Set Screen Names</summary>
   <p align="center">
 <ul>
+• view {platform} @mention</br>
 • tts {screenName}</br>
 • arena {screenName}</br>
 • online {screenName}</br>

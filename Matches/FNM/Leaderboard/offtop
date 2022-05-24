@@ -1,0 +1,22 @@
+$onlyForServers[891592037403623424;]
+
+
+$nomention
+$title[**Official Match Score Leaderboard**]
+$description[🥇 - $getLeaderboardValue[user;offMatchWin;asc;1]
+🥈 - $getLeaderboardValue[user;offMatchWin;asc;2]
+🥉 - $getLeaderboardValue[user;offMatchWin;asc;3]
+#4 - $getLeaderboardValue[user;offMatchWin;asc;4]
+#5 - $getLeaderboardValue[user;offMatchWin;asc;5]
+#6 - $getLeaderboardValue[user;offMatchWin;asc;6]
+#7 - $getLeaderboardValue[user;offMatchWin;asc;7]
+#8 - $getLeaderboardValue[user;offMatchWin;asc;8]
+#9 - $getLeaderboardValue[user;offMatchWin;asc;9]
+#10 - $getLeaderboardValue[user;offMatchWin;asc;10]]
+
+
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$getServerVar[thumbnail]]
+$footer[$getServerVar[footmsg]]
+$deletecommand

@@ -1,0 +1,22 @@
+$onlyForServers[891592037403623424;]
+
+$if[$getUserVar[SNspellTable]==]
+$title[uh oh,]
+$description[$nickname[$mentioned[1;yes]] has not set their SpellTable screen name yet.
+]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/bfd6efc873925631cfafe74a146dac9d.jpeg]
+
+$else
+
+$nomention
+$title[SpellTable Screen Name for $nickname[$findUser[$mentioned[1]]]]
+$description[
+> $getUserVar[SNspellTable;$mentioned[1]]]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/bfd6efc873925631cfafe74a146dac9d.jpeg]
+
+$deletecommand
+$deleteIn[29m]
+
+$endif

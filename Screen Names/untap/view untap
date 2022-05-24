@@ -1,0 +1,22 @@
+$onlyForServers[891592037403623424;]
+
+$if[$getUserVar[SNuntap]==]
+$title[uh oh,]
+$description[$nickname[$mentioned[1;yes]] has not set their Untap.in screen name yet.
+]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/02dba15a6f98f30e5b9e2b23b1d947d9.jpeg]
+
+$else
+
+$nomention
+$title[Untap.in Screen Name for $nickname[$findUser[$mentioned[1]]]]
+$description[
+> $getUserVar[SNuntap;$mentioned[1]]]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/535420fb1d8cec3c29ec91e1f196aae4.jpeg]
+
+$deletecommand
+$deleteIn[29m]
+
+$endif

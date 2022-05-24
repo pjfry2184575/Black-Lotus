@@ -1,0 +1,23 @@
+$onlyForServers[891592037403623424;]
+
+$if[$getUserVar[SNsteam]==]
+$title[uh oh,]
+$description[$nickname[$mentioned[1;yes]] has not set their Steam screen name yet.
+]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/1c5fe9b919305033911d987877b04eee.jpeg]
+
+$else
+
+$nomention
+$title[Tabletop Simulator Screen Name for $nickname[$findUser[$mentioned[2]]]]
+$description[
+> $getUserVar[SNsteam;$mentioned[1;yes]]]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/1c5fe9b919305033911d987877b04eee.jpeg]
+
+$endif
+
+
+$deletecommand
+$deleteIn[29m]

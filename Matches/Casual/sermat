@@ -1,0 +1,33 @@
+$nomention
+$onlyForServers[891592037403623424;]
+
+$onlyForIDs[459644548541448212;> I do apologize, but unfortunately Staff is the only one's able to use this command.]
+
+
+$nomention
+
+$if[$message[1]==win]
+    $if[$message[2]==-]
+        $setUserVar[serMatchWin;$sub[$getUserVar[serMatchWin;$mentioned[1;no]];1];$mentioned[1;no]]
+    $else
+         $setUserVar[serMatchWin;$sum[$getUserVar[serMatchWin;$mentioned[1;no]];1];$mentioned[1;no]]
+    $endif
+
+    $title[Congratulations $nickname[$mentioned[1;no]] on your Win]
+    $description[$nickname[$mentioned[1;no]] currently has a Server Match Score of $getUserVar[serMatchWin;$mentioned[1;no]]/$getUserVar[serMatchLoss;$mentioned[1;no]].]
+    $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+    $thumbnail[$getServerVar[thumbnail]]
+
+$elseif[$message[1]==loss]
+        $if[$message[2]==-]
+            $setUserVar[serMatchLoss;$sub[$getUserVar[serMatchLoss;$mentioned[1;no]];1];$mentioned[1;no]]
+        $else
+             $setUserVar[serMatchLoss;$sum[$getUserVar[serMatchLoss;$mentioned[1;no]];1];$mentioned[1;no]]
+        $endif 
+
+        $title[Sorry to hear about your Loss $nickname[$mentioned[1;yes]]]
+        $description[$nickname[$mentioned[1;yes]] currently has a Server Match Score of $getUserVar[serMatchWin;$mentioned[1;yes]]/$getUserVar[serMatchLoss;$mentioned[1;yes]].]
+        $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+        $thumbnail[$getServerVar[thumbnail]]
+$endif
+$deletecommand

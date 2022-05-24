@@ -1,0 +1,41 @@
+$onlyForServers[891592037403623424;]
+
+
+$if[$getUserVar[DCI#]==0000-000-000]
+$title[Oops,]
+$description[You need to create an account with us first before you can set your screen names.]
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$getServerVar[thumbnail]]
+$addTimestamp
+
+$else
+
+$nomention
+$replyIn[1s]
+$if[$getUserVar[SNonline]==$message[1]]
+$title[$nickname[$mentioned[1;yes]]]
+$description[Your Online screen name has already been set to, 
+> • __**$message**__]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/02dba15a6f98f30e5b9e2b23b1d947d9.jpeg]
+$addTimestamp
+
+$else
+
+$if[$getUserVar[DCI#]!=0000-000-000]
+$title[$nickname[$findUser[$message[2];yes]]]
+$description[Thank you for setting your Screen Name.
+
+You have set your Online Screen Name as, 
+> • __**$message**__]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[https://gyazo.com/02dba15a6f98f30e5b9e2b23b1d947d9.jpeg]
+
+$addTimestamp
+
+$endif
+$endif
+$endif
+$endif
+$deletecommand

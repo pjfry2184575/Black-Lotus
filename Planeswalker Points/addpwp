@@ -1,0 +1,5 @@
+$nomention
+
+$setUserVar[PwP;$sum[$getUserVar[PwP;$mentioned[1;no]];$message[1]];$mentioned[1;no]]
+
+$message[1] points was added to $nickname[$mentioned[1;yes]] account

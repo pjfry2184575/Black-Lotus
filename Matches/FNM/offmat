@@ -1,0 +1,950 @@
+$nomention
+$onlyForServers[891592037403623424;]
+
+$onlyForIDs[459644548541448212;> I do apologize, but unfortunately Staff is the only one's able to use this command.]
+
+
+$nomention
+
+$if[$message[1]==win]
+    $if[$message[2]==-]
+        $setUserVar[offMatchWin;$sub[$getUserVar[offMatchWin;$mentioned[1;no]];1];$mentioned[1;no]]
+    $else
+         $setUserVar[offMatchWin;$sum[$getUserVar[offMatchWin;$mentioned[1;no]];1];$mentioned[1;no]]
+                  $setUserVar[PwP;$sum[$getUserVar[PwP;$mentioned[1;no]];3];$mentioned[1;no]]
+                  
+
+$c[lvl 2]
+$var[condition1;$and[$getUserVar[PwP]>5;$getUserVar[PwP]<=10]]
+  $c[If condition is greater than 5 but less than 10]
+  
+$c[lvl 3]
+$var[condition2;$and[$getUserVar[PwP]>10;$getUserVar[PwP]<=15]]
+  $c[If condition is greater than 10 but less than 15]
+ 
+$c[lvl 4]
+$var[condition3;$and[$getUserVar[PwP]>15;$getUserVar[PwP]<=20]]
+  $c[If condition is greater than 15 but less than 20]
+
+$c[lvl 5]
+$var[condition4;$and[$getUserVar[PwP]>20;$getUserVar[PwP]<=25]]
+  $c[If condition is greater than 20 but less than 25]
+
+$c[lvl 6]
+$var[condition5;$and[$getUserVar[PwP]>25;$getUserVar[PwP]<=30]]
+  $c[If condition is greater than 25 but less than 30]
+
+  $c[lvl 7]
+$var[condition6;$and[$getUserVar[PwP]>30;$getUserVar[PwP]<=35]]
+  $c[If condition is greater than 30 but less than 35]
+
+$c[lvl 8]
+$var[condition7;$and[$getUserVar[PwP]>35;$getUserVar[PwP]<=40]]
+  $c[If condition is greater than 35 but less than 40]
+
+$c[lvl 9]
+$var[condition8;$and[$getUserVar[PwP]>40;$getUserVar[PwP]<=45]]
+  $c[If condition is greater than 40 but less than 45]
+
+$c[lvl 10]
+$var[condition9;$and[$getUserVar[PwP]>45;$getUserVar[PwP]<=50]]
+  $c[If condition is greater than 45 but less than 50]
+ 
+ $c[lvl 11] 
+$var[condition10;$and[$getUserVar[PwP]>50;$getUserVar[PwP]<=60]]
+  $c[If condition is greater than 50 but less than 60]
+
+$c[lvl 12]
+$var[condition11;$and[$getUserVar[PwP]>60;$getUserVar[PwP]<=70]]
+  $c[If condition is greater than 60 but less than 70]
+
+$c[lvl 13]
+$var[condition12;$and[$getUserVar[PwP]>70;$getUserVar[PwP]<=80]]
+  $c[If condition is greater than 7p but less than 80]
+
+$c[lvl 14]
+$var[condition13;$and[$getUserVar[PwP]>80;$getUserVar[PwP]<=90]]
+  $c[If  m had this am it is is greater than 80 but less than 90]
+
+$c[lvl 15]
+$var[condition14;$and[$getUserVar[PwP]>90;$getUserVar[PwP]<=100]]
+  $c[If condition is greater than 90 but less than 100]
+  
+$c[lvl 16]
+$var[condition15;$and[$getUserVar[PwP]>100;$getUserVar[PwP]<=130]]
+  $c[If condition is greater than 100 but less than 130]
+
+$c[lvl 17]
+$var[condition16;$and[$getUserVar[PwP]>130;$getUserVar[PwP]<=160]]
+  $c[If condition is greater than 130 but less than 160]
+
+$c[lvl 18]
+$var[condition17;$and[$getUserVar[PwP]>160;$getUserVar[PwP]<=190]]
+  $c[If condition is greater than 160 but less than 190]
+
+$c[lvl 19]
+$var[condition18;$and[$getUserVar[PwP]>190;$getUserVar[PwP]<=220]]
+  $c[If condition is greater than 190 but less than 220]
+  
+$c[lvl 20]
+$var[condition19;$and[$getUserVar[PwP]>220;$getUserVar[PwP]<=250]]
+  $c[If condition is greater than 200 but less than 250]
+  
+$c[lvl 21]
+$var[condition20;$and[$getUserVar[PwP]>250;$getUserVar[PwP]<=300]]
+  $c[If condition is greater than 250 but less than 300]
+  
+$c[lvl 22]
+$var[condition21;$and[$getUserVar[PwP]>300;$getUserVar[PwP]<=350]]
+  $c[If condition is greater than 300 but less than 350]
+  
+$c[lvl 23]
+$var[condition22;$and[$getUserVar[PwP]>350;$getUserVar[PwP]<=400]]
+  $c[If condition is greater than 350 but less than 400]
+  
+$c[lvl 24]
+$var[condition23;$and[$getUserVar[PwP]>400;$getUserVar[PwP]<=450]]
+  $c[If condition is greater than 400 but less than 450]
+
+$c[lvl 25]
+$var[condition24;$and[$getUserVar[PwP]>450;$getUserVar[PwP]<=500]]
+  $c[If condition is greater than 450 but less than 500]
+
+$c[lvl 26]
+$var[condition25;$and[$getUserVar[PwP]>500;$getUserVar[PwP]<=600]]
+  $c[If condition is greater than 500 but less than 600]
+
+$c[lvl 27]
+$var[condition26;$and[$getUserVar[PwP]>600;$getUserVar[PwP]<=700]]
+  $c[If condition is greater than 600 but less than 700]
+
+$c[lvl 28]
+$var[condition27;$and[$getUserVar[PwP]>700;$getUserVar[PwP]<=800]]
+  $c[If condition is greater than 700 but less than 800]
+
+$c[lvl 29]
+$var[condition28;$and[$getUserVar[PwP]>800;$getUserVar[PwP]<=900]]
+  $c[If condition is greater than 800 but less than 900]
+
+$c[lvl 30]
+$var[condition29;$and[$getUserVar[PwP]>900;$getUserVar[PwP]<=1000]]
+  $c[If condition is greater than 900 but less than 1000]
+  
+$c[lvl 31]
+$var[condition30;$and[$getUserVar[PwP]>1000;$getUserVar[PwP]<=1400]]
+  $c[If condition is greater than 1000 but less than 1400]
+
+$c[lvl 32]
+$var[condition31;$and[$getUserVar[PwP]>1400;$getUserVar[PwP]<=1800]]
+  $c[If condition is greater than 1400 but less than 1800]
+
+$c[lvl 33]
+$var[condition32;$and[$getUserVar[PwP]>1800;$getUserVar[PwP]<=2200]]
+  $c[If condition is greater than 1800 but less than 2200]
+
+$c[lvl 34]
+$var[condition33;$and[$getUserVar[PwP]>2200;$getUserVar[PwP]<=2600]]
+  $c[If condition is greater than 2200 but less than 2600]
+
+$c[lvl 35]
+$var[condition34;$and[$getUserVar[PwP]>2600;$getUserVar[PwP]<=3000]]
+  $c[If condition is greater than 2600 but less than 3000]
+
+$c[lvl 36]
+$var[condition35;$and[$getUserVar[PwP]>3000;$getUserVar[PwP]<=4400]]
+  $c[If condition is greater than 3000 but less than 4400]
+
+$c[lvl 37]
+$var[condition36;$and[$getUserVar[PwP]>4400;$getUserVar[PwP]<=5800]]
+  $c[If condition is greater than 4400 but less than 5800]
+
+$c[lvl 38]
+$var[condition37;$and[$getUserVar[PwP]>5800;$getUserVar[PwP]<=7200]]
+  $c[If condition is greater than 5800 but less than 7200]
+
+$c[lvl 39]
+$var[condition38;$and[$getUserVar[PwP]>7200;$getUserVar[PwP]<=8600]]
+  $c[If condition is greater than 7200 but less than 8600]
+
+$c[lvl 40]
+$var[condition39;$and[$getUserVar[PwP]>8600;$getUserVar[PwP]<=10000]]
+  $c[If condition is greater than 8600 but less than 10000]
+
+$c[lvl 41]
+$var[condition40;$and[$getUserVar[PwP]>10000;$getUserVar[PwP]<=13000]]
+  $c[If condition is greater than 10000 but less than 13000]
+
+$c[lvl 42]
+$var[condition41;$and[$getUserVar[PwP]>13000;$getUserVar[PwP]<=16000]]
+  $c[If condition is greater than 13000 but less than 16000]
+
+$c[lvl 43]
+$var[condition42;$and[$getUserVar[PwP]>16000;$getUserVar[PwP]<=19000]]
+  $c[If condition is greater than 16000 but less than 19000]
+
+$c[lvl 44]
+$var[condition43;$and[$getUserVar[PwP]>19000;$getUserVar[PwP]<=22000]]
+  $c[If condition is greater than 19000 but less than 22000]
+
+$c[lvl 45]
+$var[condition44;$and[$getUserVar[PwP]>22000;$getUserVar[PwP]<=25000]]
+  $c[If condition is greater than 22000 but less than 25000]
+
+$c[lvl 46]
+$var[condition45;$and[$getUserVar[PwP]>25000;$getUserVar[PwP]<=31000]]
+  $c[If condition is greater than 25000 but less than 31000]
+
+$c[lvl 47]
+$var[condition46;$and[$getUserVar[PwP]>31000;$getUserVar[PwP]<=37000]]
+  $c[If condition is greater than 31000 but less than 37000]
+
+$c[lvl 48]
+$var[condition47;$and[$getUserVar[PwP]>37000;$getUserVar[PwP]<=43000]]
+  $c[If condition is greater than 37000 but less than 43000]
+
+$c[lvl 49]
+$var[condition48;$and[$getUserVar[PwP]>43000;$getUserVar[PwP]<=50000]]
+  $c[If condition is greater than 43000 or but less than 50000]
+
+$c[lvl 50]
+$var[condition49;$getUserVar[PwP]>50000]
+  $c[If condition is greater than 50000]
+
+
+ 
+$c[lvl 2]
+$if[$var[condition1]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 1]]
+$roleGrant[$mentioned[1];+$roleID[Prodigy - lvl 2]]
+
+$c[lvl 3]
+$elseif[$var[condition2]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 2]]
+$roleGrant[$mentioned[1];+$roleID[Prodigy - lvl 3]]
+
+$c[lvl 4]
+$elseif[$var[condition3]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 3]]
+$roleGrant[$mentioned[1];+$roleID[Prodigy - lvl 4]]
+
+$c[lvl 5]
+$elseif[$var[condition4]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 4]]
+$roleGrant[$mentioned[1];+$roleID[Prodigy - lvl 5]]
+
+$c[lvl 6]
+$elseif[$var[condition5]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 5]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 6]]
+
+$c[lvl 7]
+$elseif[$var[condition6]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 6]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 7]]
+
+$c[lvl 8]
+$elseif[$var[condition7]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 7]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 8]]
+
+$c[lvl 9]
+$elseif[$var[condition8]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 8]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 9]]
+
+$c[lvl 10]
+$elseif[$var[condition9]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 9]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 10]]
+
+$c[lvl 11]
+$elseif[$var[condition10]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 10]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 11]]
+
+$c[lvl 12]
+$elseif[$var[condition11]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 11]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 12]]
+
+$c[lvl 13]
+$elseif[$var[condition12]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 12]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 13]]
+
+$c[lvl 14]
+$elseif[$var[condition13]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 13]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 14]]
+
+$c[lvl 15]
+$elseif[$var[condition14]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 14]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 15]]
+
+$c[lvl 16]
+$elseif[$var[condition15]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 15]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 16]]
+
+$c[lvl 17]
+$elseif[$var[condition16]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 16]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 17]]
+
+$c[lvl 18]
+$elseif[$var[condition17]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 17]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 18]]
+
+$c[lvl 19]
+$elseif[$var[condition18]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 18]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 19]]
+
+$c[lvl 20]
+$elseif[$var[condition19]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 19]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 20]]
+
+$c[lvl 21]
+$elseif[$var[condition20]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 20]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 21]]
+
+$c[lvl 22]
+$elseif[$var[condition21]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 21]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 22]]
+
+$c[lvl 23]
+$elseif[$var[condition22]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 22]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 23]]
+
+$c[lvl 24]
+$elseif[$var[condition23]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 23]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 24]]
+
+$c[lvl 25]
+$elseif[$var[condition24]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 24]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 25]]
+
+$c[lvl 26]
+$elseif[$var[condition25]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 25]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 26]]
+
+$c[lvl 27]
+$elseif[$var[condition26]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 26]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 27]]
+
+$c[lvl 28]
+$elseif[$var[condition27]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 27]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 28]]
+
+$c[lvl 29]
+$elseif[$var[condition28]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 28]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 29]]
+
+$c[lvl 30]
+$elseif[$var[condition29]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 29]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 30]]
+
+$c[lvl 31]
+$elseif[$var[condition30]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 30]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 31]]
+
+$c[lvl 32]
+$elseif[$var[condition31]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 31]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 32]]
+
+$c[lvl 33]
+$elseif[$var[condition32]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 32]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 33]]
+
+$c[lvl 34]
+$elseif[$var[condition33]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 33]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 34]]
+
+$c[lvl 35]
+$elseif[$var[condition34]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 34]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 35]]
+
+$c[lvl 36]
+$elseif[$var[condition35]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 35]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 36]]
+
+$c[lvl 37]
+$elseif[$var[condition36]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 36]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 37]]
+
+$c[lvl 38]
+$elseif[$var[condition37]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 37]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 38]]
+
+$c[lvl 39]
+$elseif[$var[condition38]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 38]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 39]]
+
+$c[lvl 40]
+$elseif[$var[condition39]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 39]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 40]]
+
+$c[lvl 41]
+$elseif[$var[condition40]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 40]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 41]]
+
+$c[lvl 42]
+$elseif[$var[condition41]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 41]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 42]]
+
+$c[lvl 43]
+$elseif[$var[condition42]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 42]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 43]]
+
+$c[lvl 44]
+$elseif[$var[condition43]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 43]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 44]]
+
+$c[lvl 45]
+$elseif[$var[condition44]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 44]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 45]]
+
+$c[lvl 46]
+$elseif[$var[condition45]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 45]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 46]]
+
+$c[lvl 47]
+$elseif[$var[condition46]==true]
+$roleGrant[$mentioned[1];-$roleID[Archmage - lvl 46]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 47]]
+
+$c[lvl 48]
+$elseif[$var[condition47]==true]
+$roleGrant[$mentioned[1];-$roleID[Archmage - lvl 47]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 48]]
+
+$c[lvl 49]
+$elseif[$var[condition48]==true]
+$roleGrant[$mentioned[1];-$roleID[Archmage - lvl 48]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 49]]
+
+$c[lvl 50]
+$elseif[$var[condition49]==true]
+$roleGrant[$mentioned[1];-$roleID[Archmage - lvl 49]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 50]]
+
+
+
+      
+$endif
+          $endif
+
+    $title[Congratulations $nickname[$mentioned[1;no]] on your Win]
+    $description[$nickname[$mentioned[1;no]] currently has a Official Match Score of $getUserVar[offMatchWin;$mentioned[1;no]]/$getUserVar[offMatchLoss;$mentioned[1;no]]/$getUserVar[offDraw;$mentioned[1;yes]].
+    
+    ]
+    $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+    $thumbnail[$getServerVar[thumbnail]]
+    
+    
+    $elseif[$message[1]==draw]
+        $if[$message[2]==-]
+            $setUserVar[offDraw;$sub[$getUserVar[offDraw;$mentioned[1;no]];1];$mentioned[1;no]]
+        $else
+             $setUserVar[offDraw;$sum[$getUserVar[offDraw;$mentioned[1;no]];1];$mentioned[1;no]]
+             
+             $setUserVar[PwP;$sum[$getUserVar[PwP;$mentioned[1;no]];1];$mentioned[1;no]]
+             
+$c[lvl 2]
+$var[condition1;$and[$getUserVar[PwP]>5;$getUserVar[PwP]<=10]]
+  $c[If condition is greater than 5 but less than 10]
+  
+$c[lvl 3]
+$var[condition2;$and[$getUserVar[PwP]>10;$getUserVar[PwP]<=15]]
+  $c[If condition is greater than 10 but less than 15]
+ 
+$c[lvl 4]
+$var[condition3;$and[$getUserVar[PwP]>15;$getUserVar[PwP]<=20]]
+  $c[If condition is greater than 15 but less than 20]
+
+$c[lvl 5]
+$var[condition4;$and[$getUserVar[PwP]>20;$getUserVar[PwP]<=25]]
+  $c[If condition is greater than 20 but less than 25]
+
+$c[lvl 6]
+$var[condition5;$and[$getUserVar[PwP]>25;$getUserVar[PwP]<=30]]
+  $c[If condition is greater than 25 but less than 30]
+
+  $c[lvl 7]
+$var[condition6;$and[$getUserVar[PwP]>30;$getUserVar[PwP]<=35]]
+  $c[If condition is greater than 30 but less than 35]
+
+$c[lvl 8]
+$var[condition7;$and[$getUserVar[PwP]>35;$getUserVar[PwP]<=40]]
+  $c[If condition is greater than 35 but less than 40]
+
+$c[lvl 9]
+$var[condition8;$and[$getUserVar[PwP]>40;$getUserVar[PwP]<=45]]
+  $c[If condition is greater than 40 but less than 45]
+
+$c[lvl 10]
+$var[condition9;$and[$getUserVar[PwP]>45;$getUserVar[PwP]<=50]]
+  $c[If condition is greater than 45 but less than 50]
+ 
+ $c[lvl 11] 
+$var[condition10;$and[$getUserVar[PwP]>50;$getUserVar[PwP]<=60]]
+  $c[If condition is greater than 50 but less than 60]
+
+$c[lvl 12]
+$var[condition11;$and[$getUserVar[PwP]>60;$getUserVar[PwP]<=70]]
+  $c[If condition is greater than 60 but less than 70]
+
+$c[lvl 13]
+$var[condition12;$and[$getUserVar[PwP]>70;$getUserVar[PwP]<=80]]
+  $c[If condition is greater than 7p but less than 80]
+
+$c[lvl 14]
+$var[condition13;$and[$getUserVar[PwP]>80;$getUserVar[PwP]<=90]]
+  $c[If  m had this am it is is greater than 80 but less than 90]
+
+$c[lvl 15]
+$var[condition14;$and[$getUserVar[PwP]>90;$getUserVar[PwP]<=100]]
+  $c[If condition is greater than 90 but less than 100]
+  
+$c[lvl 16]
+$var[condition15;$and[$getUserVar[PwP]>100;$getUserVar[PwP]<=130]]
+  $c[If condition is greater than 100 but less than 130]
+
+$c[lvl 17]
+$var[condition16;$and[$getUserVar[PwP]>130;$getUserVar[PwP]<=160]]
+  $c[If condition is greater than 130 but less than 160]
+
+$c[lvl 18]
+$var[condition17;$and[$getUserVar[PwP]>160;$getUserVar[PwP]<=190]]
+  $c[If condition is greater than 160 but less than 190]
+
+$c[lvl 19]
+$var[condition18;$and[$getUserVar[PwP]>190;$getUserVar[PwP]<=220]]
+  $c[If condition is greater than 190 but less than 220]
+  
+$c[lvl 20]
+$var[condition19;$and[$getUserVar[PwP]>220;$getUserVar[PwP]<=250]]
+  $c[If condition is greater than 200 but less than 250]
+  
+$c[lvl 21]
+$var[condition20;$and[$getUserVar[PwP]>250;$getUserVar[PwP]<=300]]
+  $c[If condition is greater than 250 but less than 300]
+  
+$c[lvl 22]
+$var[condition21;$and[$getUserVar[PwP]>300;$getUserVar[PwP]<=350]]
+  $c[If condition is greater than 300 but less than 350]
+  
+$c[lvl 23]
+$var[condition22;$and[$getUserVar[PwP]>350;$getUserVar[PwP]<=400]]
+  $c[If condition is greater than 350 but less than 400]
+  
+$c[lvl 24]
+$var[condition23;$and[$getUserVar[PwP]>400;$getUserVar[PwP]<=450]]
+  $c[If condition is greater than 400 but less than 450]
+
+$c[lvl 25]
+$var[condition24;$and[$getUserVar[PwP]>450;$getUserVar[PwP]<=500]]
+  $c[If condition is greater than 450 but less than 500]
+
+$c[lvl 26]
+$var[condition25;$and[$getUserVar[PwP]>500;$getUserVar[PwP]<=600]]
+  $c[If condition is greater than 500 but less than 600]
+
+$c[lvl 27]
+$var[condition26;$and[$getUserVar[PwP]>600;$getUserVar[PwP]<=700]]
+  $c[If condition is greater than 600 but less than 700]
+
+$c[lvl 28]
+$var[condition27;$and[$getUserVar[PwP]>700;$getUserVar[PwP]<=800]]
+  $c[If condition is greater than 700 but less than 800]
+
+$c[lvl 29]
+$var[condition28;$and[$getUserVar[PwP]>800;$getUserVar[PwP]<=900]]
+  $c[If condition is greater than 800 but less than 900]
+
+$c[lvl 30]
+$var[condition29;$and[$getUserVar[PwP]>900;$getUserVar[PwP]<=1000]]
+  $c[If condition is greater than 900 but less than 1000]
+  
+$c[lvl 31]
+$var[condition30;$and[$getUserVar[PwP]>1000;$getUserVar[PwP]<=1400]]
+  $c[If condition is greater than 1000 but less than 1400]
+
+$c[lvl 32]
+$var[condition31;$and[$getUserVar[PwP]>1400;$getUserVar[PwP]<=1800]]
+  $c[If condition is greater than 1400 but less than 1800]
+
+$c[lvl 33]
+$var[condition32;$and[$getUserVar[PwP]>1800;$getUserVar[PwP]<=2200]]
+  $c[If condition is greater than 1800 but less than 2200]
+
+$c[lvl 34]
+$var[condition33;$and[$getUserVar[PwP]>2200;$getUserVar[PwP]<=2600]]
+  $c[If condition is greater than 2200 but less than 2600]
+
+$c[lvl 35]
+$var[condition34;$and[$getUserVar[PwP]>2600;$getUserVar[PwP]<=3000]]
+  $c[If condition is greater than 2600 but less than 3000]
+
+$c[lvl 36]
+$var[condition35;$and[$getUserVar[PwP]>3000;$getUserVar[PwP]<=4400]]
+  $c[If condition is greater than 3000 but less than 4400]
+
+$c[lvl 37]
+$var[condition36;$and[$getUserVar[PwP]>4400;$getUserVar[PwP]<=5800]]
+  $c[If condition is greater than 4400 but less than 5800]
+
+$c[lvl 38]
+$var[condition37;$and[$getUserVar[PwP]>5800;$getUserVar[PwP]<=7200]]
+  $c[If condition is greater than 5800 but less than 7200]
+
+$c[lvl 39]
+$var[condition38;$and[$getUserVar[PwP]>7200;$getUserVar[PwP]<=8600]]
+  $c[If condition is greater than 7200 but less than 8600]
+
+$c[lvl 40]
+$var[condition39;$and[$getUserVar[PwP]>8600;$getUserVar[PwP]<=10000]]
+  $c[If condition is greater than 8600 but less than 10000]
+
+$c[lvl 41]
+$var[condition40;$and[$getUserVar[PwP]>10000;$getUserVar[PwP]<=13000]]
+  $c[If condition is greater than 10000 but less than 13000]
+
+$c[lvl 42]
+$var[condition41;$and[$getUserVar[PwP]>13000;$getUserVar[PwP]<=16000]]
+  $c[If condition is greater than 13000 but less than 16000]
+
+$c[lvl 43]
+$var[condition42;$and[$getUserVar[PwP]>16000;$getUserVar[PwP]<=19000]]
+  $c[If condition is greater than 16000 but less than 19000]
+
+$c[lvl 44]
+$var[condition43;$and[$getUserVar[PwP]>19000;$getUserVar[PwP]<=22000]]
+  $c[If condition is greater than 19000 but less than 22000]
+
+$c[lvl 45]
+$var[condition44;$and[$getUserVar[PwP]>22000;$getUserVar[PwP]<=25000]]
+  $c[If condition is greater than 22000 but less than 25000]
+
+$c[lvl 46]
+$var[condition45;$and[$getUserVar[PwP]>25000;$getUserVar[PwP]<=31000]]
+  $c[If condition is greater than 25000 but less than 31000]
+
+$c[lvl 47]
+$var[condition46;$and[$getUserVar[PwP]>31000;$getUserVar[PwP]<=37000]]
+  $c[If condition is greater than 31000 but less than 37000]
+
+$c[lvl 48]
+$var[condition47;$and[$getUserVar[PwP]>37000;$getUserVar[PwP]<=43000]]
+  $c[If condition is greater than 37000 but less than 43000]
+
+$c[lvl 49]
+$var[condition48;$and[$getUserVar[PwP]>43000;$getUserVar[PwP]<=50000]]
+  $c[If condition is greater than 43000 or but less than 50000]
+
+$c[lvl 50]
+$var[condition49;$getUserVar[PwP]>50000]
+  $c[If condition is greater than 50000]
+
+
+ 
+$c[lvl 2]
+$if[$var[condition1]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 1]]
+$roleGrant[$mentioned[1];+$roleID[Prodigy - lvl 2]]
+
+$c[lvl 3]
+$elseif[$var[condition2]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 2]]
+$roleGrant[$mentioned[1];+$roleID[Prodigy - lvl 3]]
+
+$c[lvl 4]
+$elseif[$var[condition3]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 3]]
+$roleGrant[$mentioned[1];+$roleID[Prodigy - lvl 4]]
+
+$c[lvl 5]
+$elseif[$var[condition4]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 4]]
+$roleGrant[$mentioned[1];+$roleID[Prodigy - lvl 5]]
+
+$c[lvl 6]
+$elseif[$var[condition5]==true]
+$roleGrant[$mentioned[1];-$roleID[Prodigy - lvl 5]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 6]]
+
+$c[lvl 7]
+$elseif[$var[condition6]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 6]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 7]]
+
+$c[lvl 8]
+$elseif[$var[condition7]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 7]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 8]]
+
+$c[lvl 9]
+$elseif[$var[condition8]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 8]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 9]]
+
+$c[lvl 10]
+$elseif[$var[condition9]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 9]]
+$roleGrant[$mentioned[1];+$roleID[Apprentice - lvl 10]]
+
+$c[lvl 11]
+$elseif[$var[condition10]==true]
+$roleGrant[$mentioned[1];-$roleID[Apprentice - lvl 10]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 11]]
+
+$c[lvl 12]
+$elseif[$var[condition11]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 11]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 12]]
+
+$c[lvl 13]
+$elseif[$var[condition12]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 12]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 13]]
+
+$c[lvl 14]
+$elseif[$var[condition13]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 13]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 14]]
+
+$c[lvl 15]
+$elseif[$var[condition14]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 14]]
+$roleGrant[$mentioned[1];+$roleID[Task Mage - lvl 15]]
+
+$c[lvl 16]
+$elseif[$var[condition15]==true]
+$roleGrant[$mentioned[1];-$roleID[Task Mage - lvl 15]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 16]]
+
+$c[lvl 17]
+$elseif[$var[condition16]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 16]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 17]]
+
+$c[lvl 18]
+$elseif[$var[condition17]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 17]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 18]]
+
+$c[lvl 19]
+$elseif[$var[condition18]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 18]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 19]]
+
+$c[lvl 20]
+$elseif[$var[condition19]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 19]]
+$roleGrant[$mentioned[1];+$roleID[Adept - lvl 20]]
+
+$c[lvl 21]
+$elseif[$var[condition20]==true]
+$roleGrant[$mentioned[1];-$roleID[Adept - lvl 20]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 21]]
+
+$c[lvl 22]
+$elseif[$var[condition21]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 21]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 22]]
+
+$c[lvl 23]
+$elseif[$var[condition22]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 22]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 23]]
+
+$c[lvl 24]
+$elseif[$var[condition23]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 23]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 24]]
+
+$c[lvl 25]
+$elseif[$var[condition24]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 24]]
+$roleGrant[$mentioned[1];+$roleID[Spellshaper - lvl 25]]
+
+$c[lvl 26]
+$elseif[$var[condition25]==true]
+$roleGrant[$mentioned[1];-$roleID[Spellshaper - lvl 25]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 26]]
+
+$c[lvl 27]
+$elseif[$var[condition26]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 26]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 27]]
+
+$c[lvl 28]
+$elseif[$var[condition27]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 27]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 28]]
+
+$c[lvl 29]
+$elseif[$var[condition28]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 28]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 29]]
+
+$c[lvl 30]
+$elseif[$var[condition29]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 29]]
+$roleGrant[$mentioned[1];+$roleID[Guildmage - lvl 30]]
+
+$c[lvl 31]
+$elseif[$var[condition30]==true]
+$roleGrant[$mentioned[1];-$roleID[Guildmage - lvl 30]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 31]]
+
+$c[lvl 32]
+$elseif[$var[condition31]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 31]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 32]]
+
+$c[lvl 33]
+$elseif[$var[condition32]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 32]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 33]]
+
+$c[lvl 34]
+$elseif[$var[condition33]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 33]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 34]]
+
+$c[lvl 35]
+$elseif[$var[condition34]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 34]]
+$roleGrant[$mentioned[1];+$roleID[Invoker - lvl 35]]
+
+$c[lvl 36]
+$elseif[$var[condition35]==true]
+$roleGrant[$mentioned[1];-$roleID[Invoker - lvl 35]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 36]]
+
+$c[lvl 37]
+$elseif[$var[condition36]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 36]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 37]]
+
+$c[lvl 38]
+$elseif[$var[condition37]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 37]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 38]]
+
+$c[lvl 39]
+$elseif[$var[condition38]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 38]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 39]]
+
+$c[lvl 40]
+$elseif[$var[condition39]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 39]]
+$roleGrant[$mentioned[1];+$roleID[Sorcerer - lvl 40]]
+
+$c[lvl 41]
+$elseif[$var[condition40]==true]
+$roleGrant[$mentioned[1];-$roleID[Sorcerer - lvl 40]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 41]]
+
+$c[lvl 42]
+$elseif[$var[condition41]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 41]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 42]]
+
+$c[lvl 43]
+$elseif[$var[condition42]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 42]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 43]]
+
+$c[lvl 44]
+$elseif[$var[condition43]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 43]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 44]]
+
+$c[lvl 45]
+$elseif[$var[condition44]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 44]]
+$roleGrant[$mentioned[1];+$roleID[Battlemage - lvl 45]]
+
+$c[lvl 46]
+$elseif[$var[condition45]==true]
+$roleGrant[$mentioned[1];-$roleID[Battlemage - lvl 45]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 46]]
+
+$c[lvl 47]
+$elseif[$var[condition46]==true]
+$roleGrant[$mentioned[1];-$roleID[Archmage - lvl 46]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 47]]
+
+$c[lvl 48]
+$elseif[$var[condition47]==true]
+$roleGrant[$mentioned[1];-$roleID[Archmage - lvl 47]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 48]]
+
+$c[lvl 49]
+$elseif[$var[condition48]==true]
+$roleGrant[$mentioned[1];-$roleID[Archmage - lvl 48]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 49]]
+
+$c[lvl 50]
+$elseif[$var[condition49]==true]
+$roleGrant[$mentioned[1];-$roleID[Archmage - lvl 49]]
+$roleGrant[$mentioned[1];+$roleID[Archmage - lvl 50]]
+
+
+
+      
+$endif
+        $endif 
+
+        $title[Sorry to hear about the Draw, $nickname[$mentioned[1;yes]]]
+        $description[$nickname[$mentioned[1;yes]] currently has a Official Match Score of $getUserVar[offMatchWin;$mentioned[1;yes]]/$getUserVar[offMatchLoss;$mentioned[1;yes]]/$getUserVar[offDraw;$mentioned[1;yes]].]
+        $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+        $thumbnail[$getServerVar[thumbnail]]
+
+
+
+$elseif[$message[1]==loss]
+        $if[$message[2]==-]
+            $setUserVar[offMatchLoss;$sub[$getUserVar[offMatchLoss;$mentioned[1;no]];1];$mentioned[1;no]]
+        $else
+             $setUserVar[offMatchLoss;$sum[$getUserVar[offMatchLoss;$mentioned[1;no]];1];$mentioned[1;no]]
+        $endif 
+
+        $title[Sorry to hear about your Loss $nickname[$mentioned[1;yes]]]
+        $description[$nickname[$mentioned[1;yes]] currently has a Server Match Score of $getUserVar[offMatchWin;$mentioned[1;yes]]/$getUserVar[offMatchLoss;$mentioned[1;yes]]/$getUserVar[serDraw;$mentioned[1;yes]].]
+        $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+        $thumbnail[$getServerVar[thumbnail]]
+$endif
+$deletecommand
