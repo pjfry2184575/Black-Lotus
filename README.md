@@ -67,3 +67,12 @@ This is a recreation of WotC's DCI & Planeswalker Points system.</br>
 </p>
 </details>
 
+<details>
+  <summary>Images</summary>
+  <p align="center">
+<img src="https://gyazo.com/5b6ac9ebb3c40940a343987332768a1a.png)" /></a>   
+
+<img src="https://gyazo.com/b76e4f00853b2f81487e033e58211494.png)" /></a>   
+
+</p>
+</details>
