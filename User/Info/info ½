@@ -1,0 +1,492 @@
+$nomention
+$c[Rank 1]
+$var[condition111;$and[$getUserVar[PwP]==0;$getUserVar[PwP]<=25]]
+  $c[If condition is greater than 0 but less than 25]
+  
+$c[Rank 2]
+$var[condition112;$and[$getUserVar[PwP]>25;$getUserVar[PwP]<=50]]
+  $c[If condition is greater than 25 but less than 50]
+ 
+$c[Rank 3]
+$var[condition113;$and[$getUserVar[PwP]>50;$getUserVar[PwP]<=100]]
+  $c[If condition is greater than 50 but less than 100]
+
+$c[Rank 4]
+$var[condition114;$and[$getUserVar[PwP]>100;$getUserVar[PwP]<=250]]
+  $c[If condition is greater than 100 but less than 250]
+
+$c[Rank 5]
+$var[condition115;$and[$getUserVar[PwP]>250;$getUserVar[PwP]<=500]]
+  $c[If condition is greater than 250 but less than 500]
+
+  $c[Rank 6]
+$var[condition116;$and[$getUserVar[PwP]>500;$getUserVar[PwP]<=1000]]
+  $c[If condition is greater than 500 but less than 1000]
+
+$c[Rank 7]
+$var[condition117;$and[$getUserVar[PwP]>1000;$getUserVar[PwP]<=30000]]
+  $c[If condition is greater than 1000 but less than 3000]
+
+$c[Rank 8]
+$var[condition118;$and[$getUserVar[PwP]>3000;$getUserVar[PwP]<=10000]]
+  $c[If condition is greater than 3000 but less than 10000]
+
+$c[Rank 9]
+$var[condition119;$and[$getUserVar[PwP]>10000;$getUserVar[PwP]<=25000]]
+  $c[If condition is greater than 10000 but less than 25000]
+  
+  $c[Rank 10]
+$var[condition120;$and[$getUserVar[PwP]>25000;$getUserVar[PwP]<=50000]]
+  $c[If condition is greater than 25000 but less than 50000]
+  
+  
+  
+  
+  $c[Rank 1]
+$if[$var[condition111]==true]
+$setUserVar[Rank;Prodigy;$mentioned[1;yes]]
+
+$c[Rank 2]
+$elseif[$var[condition112]==true]
+$setUserVar[Rank;Apprentice;$mentioned[1;yes]]
+
+$c[Rank 3]
+$elseif[$var[condition113]==true]
+$setUserVar[Rank;Task Mage;$mentioned[1;yes]]
+
+$c[Rank 4]
+$elseif[$var[condition114]==true]
+$setUserVar[Rank;Adept;$mentioned[1;yes]]
+
+$c[Rank 5]
+$elseif[$var[condition115]==true]
+$setUserVar[Rank;Spellshaper;$mentioned[1;yes]]
+
+$c[Rank 6]
+$elseif[$var[condition116]==true]
+$setUserVar[Rank;Guildmage;$mentioned[1;yes]]
+
+$c[Rank 7]
+$elseif[$var[condition117]==true]
+$setUserVar[Rank;Invoker;$mentioned[1;yes]]
+
+$c[Rank 8]
+$elseif[$var[condition118]==true]
+$setUserVar[Rank;Sorcerer;$mentioned[1;yes]]
+
+$c[Rank 9]
+$elseif[$var[condition119]==true]
+$setUserVar[Rank;Battlemage;$mentioned[1;yes]]
+
+$c[Rank 10]
+$elseif[$var[condition120]==true]
+$setUserVar[Rank;Archmage;$mentioned[1;yes]]
+
+$endif
+
+
+$c[lvl 1]
+$var[condition151;$and[$getUserVar[PwP]==0;$getUserVar[PwP]<=5]]
+  $c[If condition is greater than 5 but less than 10]
+
+$c[lvl 2]
+$var[condition152;$and[$getUserVar[PwP]>5;$getUserVar[PwP]<=10]]
+  $c[If condition is greater than 5 but less than 10]
+  
+$c[lvl 3]
+$var[condition153;$and[$getUserVar[PwP]>10;$getUserVar[PwP]<=15]]
+  $c[If condition is greater than 10 but less than 15]
+ 
+$c[lvl 4]
+$var[condition154;$and[$getUserVar[PwP]>15;$getUserVar[PwP]<=20]]
+  $c[If condition is greater than 15 but less than 20]
+
+$c[lvl 5]
+$var[condition155;$and[$getUserVar[PwP]>20;$getUserVar[PwP]<=25]]
+  $c[If condition is greater than 20 but less than 25]
+
+$c[lvl 6]
+$var[condition156;$and[$getUserVar[PwP]>25;$getUserVar[PwP]<=30]]
+  $c[If condition is greater than 25 but less than 30]
+
+  $c[lvl 7]
+$var[condition157;$and[$getUserVar[PwP]>30;$getUserVar[PwP]<=35]]
+  $c[If condition is greater than 30 but less than 35]
+
+$c[lvl 8]
+$var[condition158;$and[$getUserVar[PwP]>35;$getUserVar[PwP]<=40]]
+  $c[If condition is greater than 35 but less than 40]
+
+$c[lvl 9]
+$var[condition159;$and[$getUserVar[PwP]>40;$getUserVar[PwP]<=45]]
+  $c[If condition is greater than 40 but less than 45]
+
+$c[lvl 10]
+$var[condition160;$and[$getUserVar[PwP]>45;$getUserVar[PwP]<=50]]
+  $c[If condition is greater than 45 but less than 50]
+ 
+ $c[lvl 11] 
+$var[condition161;$and[$getUserVar[PwP]>50;$getUserVar[PwP]<=60]]
+  $c[If condition is greater than 50 but less than 60]
+
+$c[lvl 12]
+$var[condition162;$and[$getUserVar[PwP]>60;$getUserVar[PwP]<=70]]
+  $c[If condition is greater than 60 but less than 70]
+
+$c[lvl 13]
+$var[condition163;$and[$getUserVar[PwP]>70;$getUserVar[PwP]<=80]]
+  $c[If condition is greater than 7p but less than 80]
+
+$c[lvl 14]
+$var[condition164;$and[$getUserVar[PwP]>80;$getUserVar[PwP]<=90]]
+  $c[If  m had this am it is is greater than 80 but less than 90]
+
+$c[lvl 15]
+$var[condition165;$and[$getUserVar[PwP]>90;$getUserVar[PwP]<=100]]
+  $c[If condition is greater than 90 but less than 100]
+  
+$c[lvl 16]
+$var[condition166;$and[$getUserVar[PwP]>100;$getUserVar[PwP]<=130]]
+  $c[If condition is greater than 100 but less than 130]
+
+$c[lvl 17]
+$var[condition167;$and[$getUserVar[PwP]>130;$getUserVar[PwP]<=160]]
+  $c[If condition is greater than 130 but less than 160]
+
+$c[lvl 18]
+$var[condition168;$and[$getUserVar[PwP]>160;$getUserVar[PwP]<=190]]
+  $c[If condition is greater than 160 but less than 190]
+
+$c[lvl 19]
+$var[condition169;$and[$getUserVar[PwP]>190;$getUserVar[PwP]<=220]]
+  $c[If condition is greater than 190 but less than 220]
+  
+$c[lvl 20]
+$var[condition170;$and[$getUserVar[PwP]>220;$getUserVar[PwP]<=250]]
+  $c[If condition is greater than 200 but less than 250]
+  
+$c[lvl 21]
+$var[condition171;$and[$getUserVar[PwP]>250;$getUserVar[PwP]<=300]]
+  $c[If condition is greater than 250 but less than 300]
+  
+$c[lvl 22]
+$var[condition172;$and[$getUserVar[PwP]>300;$getUserVar[PwP]<=350]]
+  $c[If condition is greater than 300 but less than 350]
+  
+$c[lvl 23]
+$var[condition173;$and[$getUserVar[PwP]>350;$getUserVar[PwP]<=400]]
+  $c[If condition is greater than 350 but less than 400]
+  
+$c[lvl 24]
+$var[condition174;$and[$getUserVar[PwP]>400;$getUserVar[PwP]<=450]]
+  $c[If condition is greater than 400 but less than 450]
+
+$c[lvl 25]
+$var[condition175;$and[$getUserVar[PwP]>450;$getUserVar[PwP]<=500]]
+  $c[If condition is greater than 450 but less than 500]
+
+$c[lvl 26]
+$var[condition176;$and[$getUserVar[PwP]>500;$getUserVar[PwP]<=600]]
+  $c[If condition is greater than 500 but less than 600]
+
+$c[lvl 27]
+$var[condition177;$and[$getUserVar[PwP]>600;$getUserVar[PwP]<=700]]
+  $c[If condition is greater than 600 but less than 700]
+
+$c[lvl 28]
+$var[condition178;$and[$getUserVar[PwP]>700;$getUserVar[PwP]<=800]]
+  $c[If condition is greater than 700 but less than 800]
+
+$c[lvl 29]
+$var[condition179;$and[$getUserVar[PwP]>800;$getUserVar[PwP]<=900]]
+  $c[If condition is greater than 800 but less than 900]
+
+$c[lvl 30]
+$var[condition180;$and[$getUserVar[PwP]>900;$getUserVar[PwP]<=1000]]
+  $c[If condition is greater than 900 but less than 1000]
+  
+$c[lvl 31]
+$var[condition181;$and[$getUserVar[PwP]>1000;$getUserVar[PwP]<=1400]]
+  $c[If condition is greater than 1000 but less than 1400]
+
+$c[lvl 32]
+$var[condition182;$and[$getUserVar[PwP]>1400;$getUserVar[PwP]<=1800]]
+  $c[If condition is greater than 1400 but less than 1800]
+
+$c[lvl 33]
+$var[condition183;$and[$getUserVar[PwP]>1800;$getUserVar[PwP]<=2200]]
+  $c[If condition is greater than 1800 but less than 2200]
+
+$c[lvl 34]
+$var[condition184;$and[$getUserVar[PwP]>2200;$getUserVar[PwP]<=2600]]
+  $c[If condition is greater than 2200 but less than 2600]
+
+$c[lvl 35]
+$var[condition185;$and[$getUserVar[PwP]>2600;$getUserVar[PwP]<=3000]]
+  $c[If condition is greater than 2600 but less than 3000]
+
+$c[lvl 36]
+$var[condition186;$and[$getUserVar[PwP]>3000;$getUserVar[PwP]<=4400]]
+  $c[If condition is greater than 3000 but less than 4400]
+
+$c[lvl 37]
+$var[condition187;$and[$getUserVar[PwP]>4400;$getUserVar[PwP]<=5800]]
+  $c[If condition is greater than 4400 but less than 5800]
+
+$c[lvl 38]
+$var[condition188;$and[$getUserVar[PwP]>5800;$getUserVar[PwP]<=7200]]
+  $c[If condition is greater than 5800 but less than 7200]
+
+$c[lvl 39]
+$var[condition189;$and[$getUserVar[PwP]>7200;$getUserVar[PwP]<=8600]]
+  $c[If condition is greater than 7200 but less than 8600]
+
+$c[lvl 40]
+$var[condition190;$and[$getUserVar[PwP]>8600;$getUserVar[PwP]<=10000]]
+  $c[If condition is greater than 8600 but less than 10000]
+
+$c[lvl 41]
+$var[condition191;$and[$getUserVar[PwP]>10000;$getUserVar[PwP]<=13000]]
+  $c[If condition is greater than 10000 but less than 13000]
+
+$c[lvl 42]
+$var[condition192;$and[$getUserVar[PwP]>13000;$getUserVar[PwP]<=16000]]
+  $c[If condition is greater than 13000 but less than 16000]
+
+$c[lvl 43]
+$var[condition193;$and[$getUserVar[PwP]>16000;$getUserVar[PwP]<=19000]]
+  $c[If condition is greater than 16000 but less than 19000]
+
+$c[lvl 44]
+$var[condition194;$and[$getUserVar[PwP]>19000;$getUserVar[PwP]<=22000]]
+  $c[If condition is greater than 19000 but less than 22000]
+
+$c[lvl 45]
+$var[condition195;$and[$getUserVar[PwP]>22000;$getUserVar[PwP]<=25000]]
+  $c[If condition is greater than 22000 but less than 25000]
+
+$c[lvl 46]
+$var[condition196;$and[$getUserVar[PwP]>25000;$getUserVar[PwP]<=31000]]
+  $c[If condition is greater than 25000 but less than 31000]
+
+$c[lvl 47]
+$var[condition197;$and[$getUserVar[PwP]>31000;$getUserVar[PwP]<=37000]]
+  $c[If condition is greater than 31000 but less than 37000]
+
+$c[lvl 48]
+$var[condition198;$and[$getUserVar[PwP]>37000;$getUserVar[PwP]<=43000]]
+  $c[If condition is greater than 37000 but less than 43000]
+
+$c[lvl 49]
+$var[condition199;$and[$getUserVar[PwP]>43000;$getUserVar[PwP]<=50000]]
+  $c[If condition is greater than 43000 or but less than 50000]
+
+$c[lvl 50]
+$var[condition200;$getUserVar[PwP]>50000]
+  $c[If condition is greater than 50000]
+
+
+
+
+$c[lvl 1]
+$if[$var[condition151]==true]
+$setUserVar[MTGlvl;1;$mentioned[1;yes]]
+ 
+$c[lvl 2]
+$elseif[$var[condition152]==true]
+$setUserVar[MTGlvl;2;$mentioned[1;yes]]
+
+$c[lvl 3]
+$elseif[$var[condition153]==true]
+$setUserVar[MTGlvl;3;$mentioned[1;yes]]
+
+$c[lvl 4]
+$elseif[$var[condition154]==true]
+$setUserVar[MTGlvl;4;$mentioned[1;yes]]
+
+$c[lvl 5]
+$elseif[$var[condition155]==true]
+$setUserVar[MTGlvl;5;$mentioned[1;yes]]
+      
+$c[lvl 6]
+$elseif[$var[condition156]==true]
+$setUserVar[MTGlvl;6;$mentioned[1;yes]]
+      
+$c[lvl 37]
+$elseif[$var[condition157]==true]
+$setUserVar[MTGlvl;7;$mentioned[1;yes]]
+      
+$c[lvl 8]
+$elseif[$var[condition158]==true]
+$setUserVar[MTGlvl;8;$mentioned[1;yes]]
+      
+$c[lvl 9]
+$elseif[$var[condition159]==true]
+$setUserVar[MTGlvl;9 was
+;$mentioned[1;yes]]
+      
+$c[lvl 10]
+$elseif[$var[condition160]==true]
+$setUserVar[MTGlvl;10;$mentioned[1;yes]]     
+
+$c[lvl 11]
+$elseif[$var[condition161]==true]
+$setUserVar[MTGlvl;11;$mentioned[1;yes]]
+
+$c[lvl 12]
+$elseif[$var[condition162]==true]
+$setUserVar[MTGlvl;12;$mentioned[1;yes]]
+
+$c[lvl 13]
+$elseif[$var[condition163]==true]
+$setUserVar[MTGlvl;13;$mentioned[1;yes]]
+
+$c[lvl 14]
+$elseif[$var[condition164]==true]
+$setUserVar[MTGlvl;14;$mentioned[1;yes]]
+
+$c[lvl 15]
+$elseif[$var[condition165]==true]
+$setUserVar[MTGlvl;15;$mentioned[1;yes]]
+
+$c[lvl 16]
+$elseif[$var[condition166]==true]
+$setUserVar[MTGlvl;16;$mentioned[1;yes]]
+
+$c[lvl 17]
+$elseif[$var[condition167]==true]
+$setUserVar[MTGlvl;17;$mentioned[1;yes]]
+
+$c[lvl 18]
+$elseif[$var[condition168]==true]
+$setUserVar[MTGlvl;18;$mentioned[1;yes]]
+
+$c[lvl 19]
+$elseif[$var[condition169]==true]
+$setUserVar[MTGlvl;19;$mentioned[1;yes]]
+
+$c[lvl 20]
+$elseif[$var[condition170]==true]
+$setUserVar[MTGlvl;20;$mentioned[1;yes]]
+
+$c[lvl 21]
+$elseif[$var[condition171]==true]
+$setUserVar[MTGlvl;21;$mentioned[1;yes]]
+
+$c[lvl 22]
+$elseif[$var[condition172]==true]
+$setUserVar[MTGlvl;22;$mentioned[1;yes]]
+
+$c[lvl 23]
+$elseif[$var[condition173]==true]
+$setUserVar[MTGlvl;23;$mentioned[1;yes]]
+
+$c[lvl 24]
+$elseif[$var[condition174]==true]
+$setUserVar[MTGlvl;24;$mentioned[1;yes]]
+
+$c[lvl 25]
+$elseif[$var[condition175]==true]
+$setUserVar[MTGlvl;25;$mentioned[1;yes]]
+
+$c[lvl 26]
+$elseif[$var[condition176]==true]
+$setUserVar[MTGlvl;26;$mentioned[1;yes]]
+
+$c[lvl 27]
+$elseif[$var[condition177]==true]
+$setUserVar[MTGlvl;27;$mentioned[1;yes]]
+
+$c[lvl 28]
+$elseif[$var[condition178]==true]
+$setUserVar[MTGlvl;28;$mentioned[1;yes]]
+
+$c[lvl 29]
+$elseif[$var[condition179]==true]
+$setUserVar[MTGlvl;29;$mentioned[1;yes]]
+
+$c[lvl 30]
+$elseif[$var[condition180]==true]
+$setUserVar[MTGlvl;30;$mentioned[1;yes]]
+
+$c[lvl 31]
+$elseif[$var[condition181]==true]
+$setUserVar[MTGlvl;31;$mentioned[1;yes]]
+
+$c[lvl 32]
+$elseif[$var[condition182]==true]
+$setUserVar[MTGlvl;32;$mentioned[1;yes]]
+
+$c[lvl 33]
+$elseif[$var[condition183]==true]
+$setUserVar[MTGlvl;33;$mentioned[1;yes]]
+
+$c[lvl 34]
+$elseif[$var[condition184]==true]
+$setUserVar[MTGlvl;34;$mentioned[1;yes]]
+
+$c[lvl 35]
+$elseif[$var[condition185]==true]
+$setUserVar[MTGlvl;35;$mentioned[1;yes]]
+
+$c[lvl 36]
+$elseif[$var[condition186]==true]
+$setUserVar[MTGlvl;36;$mentioned[1;yes]]
+
+$c[lvl 37]
+$elseif[$var[condition187]==true]
+$setUserVar[MTGlvl;837$mentioned[1;yes]]
+
+$c[lvl 38]
+$elseif[$var[condition188]==true]
+$setUserVar[MTGlvl;38;$mentioned[1;yes]]
+
+$c[lvl 39]
+$elseif[$var[condition189]==true]
+$setUserVar[MTGlvl;39;$mentioned[1;yes]]
+
+$c[lvl 40]
+$elseif[$var[condition190]==true]
+$setUserVar[MTGlvl;40;$mentioned[1;yes]]
+
+$c[lvl 41]
+$elseif[$var[condition191]==true]
+$setUserVar[MTGlvl;41;$mentioned[1;yes]]
+
+$c[lvl 42]
+$elseif[$var[condition192]==true]
+$setUserVar[MTGlvl;42;$mentioned[1;yes]]
+
+$c[lvl 43]
+$elseif[$var[condition193]==true]
+$setUserVar[MTGlvl;43;$mentioned[1;yes]]
+
+$c[lvl 44]
+$elseif[$var[condition194]==true]
+$setUserVar[MTGlvl;44;$mentioned[1;yes]]
+
+$c[lvl 45]
+$elseif[$var[condition195]==true]
+$setUserVar[MTGlvl;845$mentioned[1;yes]]
+
+$c[lvl 46]
+$elseif[$var[condition196]==true]
+$setUserVar[MTGlvl;56;$mentioned[1;yes]]
+
+$c[lvl 47]
+$elseif[$var[condition197]==true]
+$setUserVar[MTGlvl;47;$mentioned[1;yes]]
+
+$c[lvl 48]
+$elseif[$var[condition198]==true]
+$setUserVar[MTGlvl;48;$mentioned[1;yes]]
+
+$c[lvl 49]
+$elseif[$var[condition199]==true]
+$setUserVar[MTGlvl;49;$mentioned[1;yes]]
+
+$c[lvl 50]
+$elseif[$var[condition200]==true]
+$setUserVar[MTGlvl;50;$mentioned[1;yes]]
+
+$endif
