@@ -5,6 +5,9 @@ Black Lotus</br>Discord Bot for ⱮͲƓ ᴴᵘᵇ,</br>using BDFD</br>
 
 ![IMG_20220523_223715_e](https://user-images.githubusercontent.com/66041755/169956855-407ac7b4-0db6-4de8-a46e-e6c8f5e10f06.png)
 
+<p align="center">
+This is a recreation of WotC's DCI & Planeswalker Points system.</br>
+</p>
 
 <details>
   <summary>Admin Commands</summary>
@@ -64,3 +67,12 @@ Black Lotus</br>Discord Bot for ⱮͲƓ ᴴᵘᵇ,</br>using BDFD</br>
 </p>
 </details>
 
+<details>
+  <summary>Images</summary>
+  <p align="center">
+<img src="https://gyazo.com/5b6ac9ebb3c40940a343987332768a1a.png)" /></a>   
+
+<img src="https://gyazo.com/b76e4f00853b2f81487e033e58211494.png)" /></a>   
+
+</p>
+</details>

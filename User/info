@@ -1,0 +1,80 @@
+$replyIn[1]
+$nomention
+$if[$isBot[$mentioned[1;yes]]==true]
+$title[Unfortunately,]
+$description[As much as Scruffy would enjoy playing, he is prohibited from any such activities.]
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$userAvatar[$mentioned[1;yes]]]
+
+
+$else
+
+$if[$getUserVar[DCI#;$findUser[$message]]==$getUserVar[DCI#;$mentioned[1;yes]]]
+$title[$nickname[$mentioned[1;yes]]'s DCI Card]
+$description[
+
+$addField[DCI #;``$getUserVar[DCI#;$mentioned[1;yes]]``
+]
+
+$addField[Causal Matches;$getUserVar[serMatchWin;$mentioned[1;yes]]/$getUserVar[serMatchLoss;$mentioned[1;yes]]/$getUserVar[serDraw;$mentioned[1;yes]];yes]
+
+$addField[FNM Matches;$getUserVar[offMatchWin;$mentioned[1;yes]]/$getUserVar[offMatchLoss;$mentioned[1;yes]]/$getUserVar[offDraw;$mentioned[1;yes]];yes]
+
+$addField[Planeswalker Rank, Level & Points;$getUserVar[Rank;$mentioned[1;yes]] - $getUserVar[MTGlvl;$mentioned[1;yes]] - $getUserVar[PwP;$mentioned[1;yes]]
+
+]
+
+$if[$getUserVar[SNset]==false]
+$addField[Screen Names;
+If the section below is blank, 
+$nickname[$mentioned[1;yes]] has not set their screen names yet.
+
+(__*Please encourage them to do so!*__)
+<-===========================->
+]
+$else
+$if[$getUserVar[SNset;$mentioned[1;yes]]==true]
+$addField[Screen Names;
+<-===========================->
+]
+$endif
+$endif
+
+$if[$getUserVar[SNsteam;$mentioned[1;yes]]!=]
+$addField[TTS;> • $getUserVar[SNsteam;$mentioned[1;yes]];yes]
+$endif
+
+$if[$getUserVar[SNarena;$mentioned[1;yes]]!=]
+$addField[Arena;> • $getUserVar[SNarena;$mentioned[1;yes]];yes]
+$endif
+
+$if[$getUserVar[SNonline;$mentioned[1;yes]]!=]
+$addField[Online;> • $getUserVar[SNonline;$mentioned[1;yes]];yes]
+$endif
+
+$if[$getUserVar[SNspellTable;$mentioned[1;yes]]!=]
+$addField[SpellTable;> • $getUserVar[SNspellTable;$mentioned[1;yes]];yes]
+$endif
+
+$if[$getUserVar[SNuntap;$findUser[$message]]!=]
+$addField[Untap;> • $getUserVar[SNuntap;$mentioned[1;yes]];yes]
+$endif
+
+$if[$getUserVar[SNduelist;$mentioned[1;yes]]!=]
+$addField[Duelist;> • $getUserVar[SNduelist;$mentioned[1;yes]];yes]
+$endif
+
+$if[$getUserVar[SNcock;$mentioned[1;yes]]!=]
+$addField[Cockatrice;> • $getUserVar[SNcock;$mentioned[1;yes]];yes]
+$endif
+
+]
+
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$userAvatar[$mentioned[1;yes]]]
+$footer[See +help to set your Screen Names]
+
+$endif
+$endif
