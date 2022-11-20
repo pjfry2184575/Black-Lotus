@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 20,
+    "editor.cursorStyle": "block",
+    "editor.autoClosingBrackets": "always",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.fastScrollSensitivity": 3
+}
