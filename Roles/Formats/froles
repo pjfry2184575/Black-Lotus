@@ -1,0 +1,42 @@
+Trigger: $getServerVar[prefix]froles
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+
+$onlyForRoleIDs[891592037403623426;**You do not have permission to use this command!**]
+
+$title[__**Format Roles**__]
+$description[
+> • <@&896100860252278845>
+> • <@&896100852408942604>
+> • <@&896101143602663464>
+> • <@&896101268743942154>
+> • <@&896101425715761212>
+> • <@&896101501624254534>
+> • <@&896101564626903081>
+> • <@&896101621476520027>
+> • <@&896101674098245632>
+> • <@&897937335675654225>
+]
+
+$addButton[no;Pioneer;Pioneer;secondary;no;]
+$addButton[no;Pauper;Pauper;secondary;no;]
+$addButton[yes;Causal;Causal;secondary;no;]
+$addButton[no;Draft;Draft;secondary;no;]
+$addButton[no;Vintage;Vintage;secondary;no;]
+$addButton[yes;Legacy;Legacy;secondary;no;]
+$addButton[no;Modern;Modern;secondary;no;]
+$addButton[no;EDH;EDH;secondary;no;]
+$addButton[no;Standard;Standard;secondary;no;]
+$addButton[no;Historic;Historic;secondary;no;]
+
+$thumbnail[https://gyazo.com/c8d08f3347c5596721b7885795df58e6.jpeg]
+$deletecommand
+
+
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]

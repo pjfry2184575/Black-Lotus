@@ -1,0 +1,36 @@
+Trigger: $getServerVar[prefix]proles
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+
+$onlyForRoleIDs[891592037403623426;**You do not have permission to use this command!**]
+
+$title[__**Platform Roles**__]
+$description[> • <@&892469068643323945>
+> • <@&896992143284011008>
+> • <@&896992785482264596>
+> • <@&891621686166814721>
+> • <@&891623447812276274>
+> • <@&898233515500519487>
+> • <@&898245801069928459>
+]
+
+$addButton[yes;Arena;Arena;danger;no;]
+$addButton[no;Online;Online;danger;no;]
+$addButton[no;Duelist;Duelist;danger;no;]
+$addButton[no;TTS;Tabletop Simulator;danger;no;]
+$addButton[no;Untap;Untap.in;danger;no;]
+$addButton[yes; Cockatrice; Cockatrice;danger;no;]
+$addButton[no;SpellTable;Spell Table;danger;no;]
+
+
+$thumbnail[https://gyazo.com/c8d08f3347c5596721b7885795df58e6.jpeg]
+$deletecommand
+
+
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
