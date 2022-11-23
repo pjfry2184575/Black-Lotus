@@ -24,7 +24,7 @@ $addButton[no;Online;Online;danger;no;]
 $addButton[no;Duelist;Duelist;danger;no;]
 $addButton[no;TTS;Tabletop Simulator;danger;no;]
 $addButton[no;Untap;Untap.in;danger;no;]
-$addButton[yes; Cockatrice; Cockatrice;danger;no;]
+$addButton[yes;Cockatrice; Cockatrice;danger;no;]
 $addButton[no;SpellTable;Spell Table;danger;no;]
 
 
