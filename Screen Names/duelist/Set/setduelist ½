@@ -1,0 +1,9 @@
+Trigger: $getServerVar[prefix]setduelist
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+$setUserVar[SNduelist;$message[2];$mentioned[1]]

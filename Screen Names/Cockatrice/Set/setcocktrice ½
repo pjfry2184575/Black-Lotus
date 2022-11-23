@@ -1,0 +1,9 @@
+Trigger: $getServerVar[prefix]setcocktrice
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+$setUserVar[SNcock;$message[2];$mentioned[1]]

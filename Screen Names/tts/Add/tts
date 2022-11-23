@@ -1,3 +1,8 @@
+Trigger: $getServerVar[prefix]tts
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 $onlyForServers[891592037403623424;]
 
 
@@ -13,25 +18,25 @@ $else
 
 $nomention
 $replyIn[1s]
-$if[$getUserVar[SNarena]==$message]
+$if[$getUserVar[SNsteam]==$message]
 $title[$nickname[$mentioned[1;yes]]]
-$description[Your Arena screen name has already been set to
+$description[Your TTS screen name has already been set to
 > • __**$message**__]
 $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
-$thumbnail[https://gyazo.com/808fb0c8f9df2d60b599c062019c550a.jpeg]
+$thumbnail[https://gyazo.com/1c5fe9b919305033911d987877b04eee.jpeg]
 
 $addTimestamp
 
 $else
 
 $if[$getUserVar[DCI#]!=0000-000-000]
-$title[$nickname[$mentioned[1;yes]]]
+$title[$nickname[$findUser[$message[2];yes]]]
 $description[Thank you for setting your Screen Name.
 
-You have set your Arena Screen Name as,
+You have set your TTS Screen Name as,
 > • __**$message**__]
 $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
-$thumbnail[https://gyazo.com/808fb0c8f9df2d60b599c062019c550a.jpeg]
+$thumbnail[https://gyazo.com/1c5fe9b919305033911d987877b04eee.jpeg]
 
 $addTimestamp
 

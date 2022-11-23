@@ -1,3 +1,8 @@
+Trigger: $getServerVar[prefix]untap
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 $onlyForServers[891592037403623424;]
 
 
@@ -13,12 +18,12 @@ $else
 
 $nomention
 $replyIn[1s]
-$if[$getUserVar[SNsteam]==$message]
+$if[$getUserVar[SNuntap]==$message[1]]
 $title[$nickname[$mentioned[1;yes]]]
-$description[Your TTS screen name has already been set to
+$description[Your Untap.in screen name has already been set to, 
 > • __**$message**__]
 $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
-$thumbnail[https://gyazo.com/1c5fe9b919305033911d987877b04eee.jpeg]
+$thumbnail[https://gyazo.com/535420fb1d8cec3c29ec91e1f196aae4.jpeg]
 
 $addTimestamp
 
@@ -28,10 +33,10 @@ $if[$getUserVar[DCI#]!=0000-000-000]
 $title[$nickname[$findUser[$message[2];yes]]]
 $description[Thank you for setting your Screen Name.
 
-You have set your TTS Screen Name as,
+You have set your Untap.in Screen Name as, 
 > • __**$message**__]
 $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
-$thumbnail[https://gyazo.com/1c5fe9b919305033911d987877b04eee.jpeg]
+$thumbnail[https://gyazo.com/535420fb1d8cec3c29ec91e1f196aae4.jpeg]
 
 $addTimestamp
 

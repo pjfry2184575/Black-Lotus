@@ -1,0 +1,9 @@
+Trigger: $getServerVar[prefix]setarena
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+$setUserVar[SNarena;$message[2];$mentioned[1]]

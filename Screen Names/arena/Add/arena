@@ -1,3 +1,8 @@
+Trigger: $getServerVar[prefix]arena
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 $onlyForServers[891592037403623424;]
 
 
@@ -13,25 +18,25 @@ $else
 
 $nomention
 $replyIn[1s]
-$if[$getUserVar[SNuntap]==$message[1]]
+$if[$getUserVar[SNarena]==$message]
 $title[$nickname[$mentioned[1;yes]]]
-$description[Your Untap.in screen name has already been set to, 
+$description[Your Arena screen name has already been set to
 > • __**$message**__]
 $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
-$thumbnail[https://gyazo.com/535420fb1d8cec3c29ec91e1f196aae4.jpeg]
+$thumbnail[https://gyazo.com/808fb0c8f9df2d60b599c062019c550a.jpeg]
 
 $addTimestamp
 
 $else
 
 $if[$getUserVar[DCI#]!=0000-000-000]
-$title[$nickname[$findUser[$message[2];yes]]]
+$title[$nickname[$mentioned[1;yes]]]
 $description[Thank you for setting your Screen Name.
 
-You have set your Untap.in Screen Name as, 
+You have set your Arena Screen Name as,
 > • __**$message**__]
 $color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
-$thumbnail[https://gyazo.com/535420fb1d8cec3c29ec91e1f196aae4.jpeg]
+$thumbnail[https://gyazo.com/808fb0c8f9df2d60b599c062019c550a.jpeg]
 
 $addTimestamp
 

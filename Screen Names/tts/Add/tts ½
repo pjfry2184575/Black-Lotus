@@ -1,0 +1,15 @@
+Trigger: $getServerVar[prefix]tts
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+$if[$getUserVar[DCI#]!=0000-000-000]
+$setUserVar[SNsteam;$message]
+$endif
+
+$if[$getUserVar[DCI#]!=0000-000-000]
+$setUserVar[SNset;true]
+$endif

@@ -1,0 +1,30 @@
+Trigger: $getServerVar[prefix]setarena
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+
+$replyIn[1]
+$onlyAdmin[You need to be an Admin or Staff to use this cmd.]
+
+$if[$getUserVar[SNarena;$mentioned[1]]!=$message[1]]
+
+$title[$nickname[$authorID]]
+$description[Thank you for setting $nickname[$mentioned[1]] Screen Name.
+
+You have set their Screen Name as $getUserVar[SNarena;$mentioned[1]].]
+$addTimestamp
+
+$else
+
+$title[$nickname[$mentioned[1]] ID]
+$description[has already had their Screen Name set as $getUserVar[SNarena;$mentioned[1]]]
+$addTimestamp
+
+$endif
+
+
+

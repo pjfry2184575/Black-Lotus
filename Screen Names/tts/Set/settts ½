@@ -1,0 +1,10 @@
+Trigger: $getServerVar[prefix]settts
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+$setUserVar[SNsteam;$message[2];$mentioned[1]]
+$suppressErrors

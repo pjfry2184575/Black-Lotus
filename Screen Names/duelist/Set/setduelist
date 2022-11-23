@@ -1,0 +1,30 @@
+Trigger: $getServerVar[prefix]setduelist
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+$nomention
+
+$replyIn[1]
+$onlyForRoleIDs[459644548541448212;896926003715248208;459644548541You need to be an Admin or Staff to use this cmd.]
+
+$if[$getUserVar[SNduelist;$mentioned[1]]!=$message[1]]
+
+$title[$nickname[$authorID]]
+$description[Thank you for setting $nickname[$mentioned[1]] Screen Name.
+
+You have set their Screen Name as $getUserVar[SNduelist;$mentioned[1]].]
+$addTimestamp
+
+$else
+
+$title[$nickname[$mentioned[1]] ID]
+$description[has already had their Screen Name set as $getUserVar[SNduelist;$mentioned[1]]]
+$addTimestamp
+
+$endif
+
+
+
