@@ -1,5 +1,24 @@
-Trigger: $onInteraction[owner]
+Trigger: $onInteraction[Duelist]
 ≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
 
 Code
 ≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+
+$nomention 
+
+$if[$hasRole[$authorID;896992785482264596]]
+$roleGrant[$authorID;-896992785482264596]
+$ephemeral
+You have removed the role for Duelist.
+
+$else
+
+$roleGrant[$authorID;+896992785482264596]
+$ephemeral
+You have added the role for Duelist.
+
+$endif
+
+$removeButtons
