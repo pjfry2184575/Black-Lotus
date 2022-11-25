@@ -1,0 +1,29 @@
+Trigger: $getServerVar[prefix]signin
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$nomention
+
+$onlyAdmin[**You do not have permission to use this command!**]
+
+$title[Welcome to __**FRIDAY NIGHT MAGIC Official Server Matches**__!!!!!]
+$description[Please sign in to let us know you are here and ready to begin.
+
+Sign-up notifications will be sent out 60 minutes proir to beginning.
+
+To Sign-in simply click the 📋 emoji.
+
+__**Dont forget to have your 
+Handy Dandy Companion app OPEN**__
+
+If not dont have the app, 
+Here you go.....
+
+[Google Play store](https://play.google.com/store/apps/details?id=com.wizards.winter_orb&src=comp-app)  |  [App Store](https://apps.apple.com/us/app/magic-the-gathering-companion/id1455161962?src=comp-app)
+]
+
+$thumbnail[https://gyazo.com/c8d08f3347c5596721b7885795df58e6.jpeg]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$addReactions[📋]
+$deletecommand

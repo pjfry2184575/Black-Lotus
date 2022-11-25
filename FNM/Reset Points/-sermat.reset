@@ -1,0 +1,43 @@
+Trigger: -sermat.reset
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$nomention
+$onlyForIDs[459644548541448212;> I do apologize, but unfortunately Staff is the only one's able to use this command.]
+
+
+$if[$message[1]==win]
+$nomention
+$setUserVar[serMatchWin;0;$findUser[$message[2]$message[3]$message[4]$message[5]]]
+
+$title[Server Match Win Rest]
+$description[Thank you $nickname,
+
+$nickname[$findUser[$message[2]$message[3]$message[4]$message[5]]]'s Official Wins have been reset.
+
+They have $getUserVar[serMatchWin;$findUser[$message[2]$message[3]$message[4]$message[5]]] Wins now]
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$getServerVar[thumbnail]] 
+
+
+$if[$message[1]==loss]
+$setVar[sentMentionMTG;$findUser[$message[2]$message[3]$message[4]$message[5]]]
+
+$nomention
+$setUserVar[serMatchLoss;0;$findUser[$message[2]$message[3]$message[4]$message[5]]] 
+
+$title[Server Match Loss Rest]
+$description[Thank you $nickname,
+
+$nickname[$findUser[$message[2]$message[3]$message[4]$message[5]]]'s Official Losses have been reset.
+
+They have  $getUserVar[serMatchLoss;$findUser[$message[2]$message[3]$message[4]$message[5]]] Losses now]
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$getServerVar[thumbnail]] 
+
+$endif
+$endif
+$deletecommand

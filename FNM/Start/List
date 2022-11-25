@@ -1,0 +1,26 @@
+Trigger: $getServerVar[prefix]fnmlist
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$onlyForServers[891592037403623424;]
+
+
+$nomention
+
+$onlyForRoleIDs[891592037403623426;895729094547873842;**You do not have permission to use this command!**]
+
+$title[__**FNM Sign-in Sheet**__]
+$description[• $getReactions[895720483205550100;974479428463775765;, • ;📋]
+] 
+
+
+
+$thumbnail[https://gyazo.com/c8d08f3347c5596721b7885795df58e6.jpeg]
+$footer[This makes the list copyable.]
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$deletecommand
+$addTimestamp
+$author[$username#$discriminator[]]
+$authorIcon[$authorAvatar]
+$ignoreTriggerCase
