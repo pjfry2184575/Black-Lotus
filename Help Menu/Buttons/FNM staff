@@ -3,3 +3,18 @@ Trigger: $onInteraction[FNMstaff]
 
 Code
 ≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$nomention
+$addField[These are for FNM Staff;👇🏻👇🏻👇🏻👇🏻👇🏻]
+$addField[FNM Official Matches;
+> • +offmat <win/loss/draw> @mention
+> • +offmat <win/loss/draw> - @mention
+]
+
+$addButton[yes;Hback;Back;secondary;no;🔙]
+$removeComponent[FNMstaff]
+$removeComponent[Staff]
+
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$getServerVar[thumbnail]]
+$deletecommand
