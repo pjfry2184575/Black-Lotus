@@ -1,0 +1,16 @@
+Trigger: $getServerVar[prefix]
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+$if[$checkContains[$botCommands[-];$message[1];Do_Not_Delete_This_Text]==true]
+$c[Valid cmd]
+$else
+
+$description[
+That command does not exist, 
+Use `!help` to see my commands.]
+$color[ff0000]
+$deleteIn[5s]
+$endif
+$deletecommand

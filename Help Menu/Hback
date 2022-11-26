@@ -1,0 +1,46 @@
+Trigger: $onInteraction[Hback]
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+
+$nomention
+$title[Help Menu]
+$description[
+
+
+
+$addField[Screen Names;
+• +<platform> <Name>
+• +view <platform> @mention
+]
+
+$addField[User Commands;
+• +info @mention
+• +lfg <platform>
+• +levels
+]
+
+$addField[Leaderboards;
+• +offtop
+• +sertop
+]
+]
+
+$c[Staff Role]
+$if[$hasRole[$authorID;1012542464638324813]==true]
+$addButton[no;Staff;Staff;secondary;no;]
+$endif
+
+$c[FNM Staff Role]
+$if[$hasRole[$authorID;1012542464638324811]==true]
+$addButton[no;FNMstaff;FNM Staff;secondary;no;]
+$endif
+
+$removeComponent[Hback]
+
+
+$color[$randomText[2191D1;C64740;3D963A;000000;f2f2f2]]
+$thumbnail[$getServerVar[thumbnail]]
+$deletecommand
